@@ -28,7 +28,7 @@ public class Project1 {
         Point b2 = new Point(b.getX(), b.getY());
         b.shiftX(4);
         b.shiftY(-2);
-        System.out.println("Shifted b " + b.distance(b2) + " away from original position: " + b);
+        System.out.println("Shifted b " + b.distance(b2) + " away from original position: Point " + b);
 
     }
 }
